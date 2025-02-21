@@ -14,7 +14,7 @@ def main():
 
     create_folders()
 
-    cap_left = cv2.VideoCapture(1)
+    cap_left = cv2.VideoCapture(0)
     cap_right = cv2.VideoCapture(2)
 
     if not cap_left.isOpened() or not cap_right.isOpened():

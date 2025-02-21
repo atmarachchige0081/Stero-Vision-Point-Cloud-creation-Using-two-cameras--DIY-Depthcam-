@@ -5,8 +5,8 @@ import glob
 # ----------------------------
 # Calibration Pattern Settings
 # ----------------------------
-chessboard_size = (7, 10)  
-square_size = 0.025       
+chessboard_size = (8, 6)  
+square_size = 0.03      
 
 
 objp = np.zeros((chessboard_size[0] * chessboard_size[1], 3), np.float32)
